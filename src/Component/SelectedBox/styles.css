@@ -1,0 +1,48 @@
+
+.selected-container{
+    display: block;
+    width:auto;
+    height: auto;
+    background: #E3E7ED;
+    border-radius: 3px;
+    margin-left: 3px;
+}
+
+
+
+
+.selected-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3px;
+    height: 100%;
+    width: 85%;
+    vertical-align: middle;
+    font-family: "San Francisco Pro Display Regular", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #222222;
+
+}
+
+
+.selected-box--arrow  {
+    width: 15px;
+    height: 15px;
+}
+
+.selected-box--arrow:hover {
+
+}
+
+.selected-box--close {
+   position: absolute;
+    top: 12px;
+    right: 25px;
+}
+
+
+

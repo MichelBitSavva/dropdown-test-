@@ -1,0 +1,136 @@
+
+.select-container{
+    display: flex;
+    position: relative;
+    width:48.5%;
+    height: 40px;
+}
+
+.select-box--box {
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.select-box--container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #818186;
+    border-radius: 3px;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.select-box--selected-item-short {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0 10px 20px;
+    height: 100%;
+    width: 15%;
+    vertical-align: middle;
+    font-family: "San Francisco Pro Display Regular", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #222222;
+
+}
+.select-box--selected-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0 10px 0;
+    height: 100%;
+    width: 85%;
+    vertical-align: middle;
+    font-family: "San Francisco Pro Display Regular", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #222222;
+
+}
+
+.select-box--arrow {
+    width: 40px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.select-box--items {
+    display: flex;
+    text-align: start;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #818186;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    font-family: "San Francisco Pro Display Regular", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 32px;
+    color: #222222;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+.select-box-wrapper-drop-items {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.select-box-wrapper-drop-items div{
+    padding: 0 5px 0 5px;
+}
+
+.select-box--selected-item {
+    font-size: 12px;
+}
+
+.select-box--input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+
+.select-box--input:focus{
+    outline: none;
+}
+
+
+
+.select-box--items div.selected {
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 2px 8px;
+}
+
+.select-box--items div:hover {
+    background-color: #eee;
+}
+
+.select-box--arrow {
+    top: 7px;
+    right: 8px;
+    width: 15px;
+    height: 15px;
+}
+
